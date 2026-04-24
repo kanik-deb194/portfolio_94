@@ -21,28 +21,15 @@ Hi! I'm Kanik Deb, a Computer Science & Engineering student at United Internatio
 portfolio/
 ├── index.html          # Main HTML file
 ├── css/
-│   └── style.css       # Stylesheet
+│   └── portfolio.css       # Stylesheet
 ├── js/
-│   └── script.js       # JavaScript logic
+│   └── portfolio.js       # JavaScript logic
 ├── assets/
 │   ├── images/         # Images and icons
 │   └── resume.pdf      # Downloadable resume
 └── README.md           # Project documentation
 ```
-> ⚠️ Folder structure may vary slightly depending on your actual project setup.
----
-🚀 Getting Started
-To run this project locally:
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/your-portfolio-repo.git
 
-# 2. Navigate into the project directory
-cd your-portfolio-repo
-
-# 3. Open in your browser
-open index.html
-```
 No build tools or dependencies required — it's plain HTML, CSS, and JavaScript! 🎉
 ---
 🌍 Deployment
@@ -57,19 +44,15 @@ CSS3	Styling, layout & animations
 JavaScript	Interactivity & dynamic content
 Vercel	Hosting & deployment
 ---
-📸 Screenshots
-> *(Add screenshots of your portfolio here to give visitors a preview)*
-```
-💡 Tip: You can drag and drop images directly into GitHub to upload them,
-then paste the generated URL here.
+
 ```
 ---
 📬 Contact
 Feel free to reach out — I'm always open to collaboration, feedback, or a friendly chat!
 🎓 University: United International University, Bangladesh
-📧 Email: your-email@example.com ← (replace with your actual email)
-💼 LinkedIn: linkedin.com/in/yourprofile ← (replace with your actual LinkedIn)
-🐙 GitHub: github.com/your-username ← (replace with your actual GitHub)
+📧 Email: kanik.cse194@gmail.com 
+💼 LinkedIn: linkedin.com/in/yourprofile 
+🐙 GitHub: github.com/kanik-deb194 
 ---
 📄 License
 This project is open source and available under the MIT License.
