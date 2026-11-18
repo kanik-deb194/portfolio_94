@@ -578,4 +578,8 @@ footer { padding: 30px 0; position: relative; z-index: 2; box-shadow: inset 0 8p
   .orbit-1 { animation: spin var(--spin) linear infinite !important; }
   .orbit-2 { animation: spin calc(var(--spin) * 1.8) linear infinite reverse !important; }
   .orb-item { animation: counter var(--spin) linear infinite !important; }
+
+  /* same for the tech marquee */
+  .marquee-track { animation: marquee 70s linear infinite !important; }
+  .marquee-track[data-dir="right"] { animation: marquee 80s linear infinite reverse !important; }
 }
