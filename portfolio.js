@@ -82,7 +82,6 @@ function startTyped() {
   const el = $('#typed');
   if (!el) return;
   const words = el.dataset.words.split('|');
-  if (reduceMotion) { el.textContent = words[0]; return; }
   let w = 0, c = 0, del = false;
   (function tick() {
     const word = words[w];
