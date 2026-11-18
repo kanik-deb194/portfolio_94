@@ -3,7 +3,10 @@
 ═════════════════════════════════════ */
 const $  = (s, c = document) => c.querySelector(s);
 const $$ = (s, c = document) => [...c.querySelectorAll(s)];
-const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Switched off on purpose so every animation plays on every device.
+// To respect the system "reduce motion" setting again, use:
+// window.matchMedia('(prefers-reduced-motion: reduce)').matches
+const reduceMotion = false;
 const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 
 /* ══════════════════════════════════════
@@ -250,8 +253,8 @@ if (canHover && !reduceMotion) {
     cursor.classList.toggle('hover', !!e.target.closest('a, button, input, textarea, .magnetic, .stag, .sb'));
   });
   function loop() {
-    cx += (tx - cx) * 0.18;
-    cy += (ty - cy) * 0.18;
+    cx += (tx - cx) * 0.28;
+    cy += (ty - cy) * 0.28;
     cursor.style.setProperty('--cx', cx.toFixed(1) + 'px');
     cursor.style.setProperty('--cy', cy.toFixed(1) + 'px');
     if (Math.abs(tx - cx) > 0.3 || Math.abs(ty - cy) > 0.3) raf = requestAnimationFrame(loop);
